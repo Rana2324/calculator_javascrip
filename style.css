@@ -6,7 +6,7 @@
 }
 .container {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: #e3f9ff;
   display: flex;
   align-items: center;
@@ -16,6 +16,7 @@
   background: #3a4452;
   padding: 20px;
   border-radius: 10px;
+  width: 374px;
 }
 .calculator form input {
   border: 0;
@@ -36,6 +37,8 @@ form .display_area {
   justify-content: flex-end;
   margin: 20px 0;
   flex-direction: column;
+  width: 100%;
+  min-height: 160px;
 }
 .display1 {
   font-size: 30px;
@@ -44,6 +47,8 @@ form .display_area {
   box-shadow: none;
   padding: 20px 15px;
   color: white;
+  width: 100%;
+  word-break: break-all;
 }
 .display2 {
   font-size: 45px;
@@ -52,6 +57,8 @@ form .display_area {
   box-shadow: none;
   padding: 20px 15px;
   color: white;
+  width: 100%;
+  word-break: break-all;
 }
 form input.equal {
   width: 145px;
